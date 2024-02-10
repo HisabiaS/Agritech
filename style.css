@@ -26,3 +26,13 @@
     color: whitesmoke;
     text-decoration: none;
 }
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
