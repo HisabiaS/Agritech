@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <header class="header">
@@ -22,18 +22,18 @@
         </div>
         <div class="wrapper-login">
             <h2>Login</h2>
-            <form action="#">
+            <form action="/" method="post">
                 <div class="input-box">
                     <span class="icon"></span>
-                    <input type="email" required>
-                    <label>Enter your email</label>
+                    <input type="text" name="username" required>
+                    <label>Enter your username</label>
                 </div>
                 <div class="input-box">
-                    <span class="icon">
-                    </span>
-                    <input type="password" required>
+                    <span class="icon"></span>
+                    <input type="password" name="password" required>
                     <label>Enter your Password</label>
                 </div>
+                <input type="Submit" value="Login">
             </form>
         </div>
     </section>
