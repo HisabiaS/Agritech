@@ -108,6 +108,24 @@ body {
     background: rgba(255, 255, 255, .2);
 }
 
+.list .list-item a i {
+    min-width: 50px;
+    height: 50 px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.sidebar .link-name {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s;
+}
+
+.sidebar.active .link-name {
+    opacity: 1;
+    pointer-events: auto;
+
+}
 
 </style>
 </head>
@@ -174,10 +192,6 @@ body {
                 </a>
             </li>
         </ul>
-
-
-
-
     </nav>
 
     <script src="script.js"></script>
