@@ -36,4 +36,10 @@
     background-position: center;
     display: flex;
     align-items: center;
+    padding: 90px 100px 0;
+}
+
+.home .content {
+    max-width: 700px;
+    color: azure;
 }
