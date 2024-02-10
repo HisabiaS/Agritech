@@ -4,13 +4,29 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
         {
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
             "file": "C:\\Users\\soham\\OneDrive\\Desktop\\SparkHacks\\Agritech\\index.html"
+        },
+        {
+            "name": "Python: Flask",
+            "type": "python",
+            "request": "launch",
+            "module": "flask",
+            "env": {
+                "FLASK_APP": "app.py",
+                "FLASK_ENV": "development",
+                "FLASK_DEBUG": "0"
+            },
+            "args": [
+                "run",
+                "--no-debugger",
+                "--no-reload"
+            ],
+            "jinja": true
         }
     ]
 }
-
+    
