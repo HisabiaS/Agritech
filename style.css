@@ -15,13 +15,13 @@
     padding: 20px 100px;
     background: red;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Updated this line to center the content */
     align-items: center;
     z-index: 99;
     border: 1px solid red; /* Adds a red border around the header */
 }
 
-.header .logo{
+.header .logo {
     font-size: 1.7em;
     color: #fff;
     text-decoration: none;
