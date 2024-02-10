@@ -13,15 +13,32 @@
     flex-direction: column;
     background: url('TitlePage_BG.webp') no-repeat;
   }
+  .agrotech-logo {
+    font-size: 7em;
+    font-weight: bold;
+    color: #2e9f02;
+  }
+  .get-started {
+    margin-top: 150px;
+    font-size: 3em;
+    padding: 5px 10px;
+    background: #14283a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width : 400px;
+    border-radius: 15px;
+  }
 </style>
-    </head>
-        <body>
-        <div class="agrotech-logo">AGROTECH</div>
-        <button class="get-started"><p onclick="openOtherPage('News.html')">Get Started</p></button>
-                <script>
-                    function openOtherPage(filename) {
-                    window.location.href = filename; // Use window.location.href for same tab
-                    }
-                </script>
-                </body>
+</head>
+<body>
+
+<div class="agrotech-logo">AGROTECH</div>
+<button class="get-started"><p onclick="openOtherPage('News.html')">Get Started</p></button>
+        <script>
+            function openOtherPage(filename) {
+              window.location.href = filename; // Use window.location.href for same tab
+            }
+          </script>
+    </body>
 </html>
