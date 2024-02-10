@@ -31,10 +31,50 @@ body {
     height: 100%;
     background: transparent;
     -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
     border-right: 2px solid rgba(255, 255, 255, .2);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     padding: 6px 14px;
     transition: .5s;
+}
+
+
+#info-text-box-1 {
+    color: #000;
+    border-radius: 8px;
+    padding: 20px;
+    width: 600px;
+    height: 250px;
+    overflow-y: auto;
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    transform: translate(-10%, -25%);
+}
+
+#info-text-box-2 {
+    color: #000; 
+    border-radius: 8px; 
+    padding: 20px; 
+    width: 600px; 
+    height: 250px; 
+    overflow-y: auto; 
+    -webkit-backdrop-filter: blur(40px); 
+    backdrop-filter: blur(40px); 
+    border: 1px solid rgba(255, 255, 255, 0.25); 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    position: absolute; 
+    top: 18%; 
+    left: 60%; 
+    transform: translate(-10%, -25%); 
 }
 
 .sidebar.active {
@@ -193,6 +233,16 @@ body {
             </li>
         </ul>
     </nav>
+    <div id="info-text-box-1">
+        <b>Countries urged to curb factory farming to meet climate goals</b><br>
+A report found that industrial agriculture has a major impact on world emissions, accounting for at least 11%. At the COP28 climate conference, governments were encouraged to connect food production with emissions goals. This included promoting agricultural innovation and a shift towards sustainable livestock and plant-based food production.
+
+    </div>
+    <div id = "info-text-box-2">
+        <b>Global Climate Change Impact on Crops Expected Within 10 Years, NASA Study Finds</b><br>
+Impact of Climate Change on Crop Yields: According to a NASA study, climate change will affect maize and wheat yields as early as 2030. Changes in temperature and carbon dioxide levels can impact photosynthesis and water retention, leading to a 17% rise in wheat yields and a 24% decrease in maize yields.
+
+    </div>
 
     <script src="script.js"></script>
     <script>
