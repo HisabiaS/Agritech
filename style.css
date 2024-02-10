@@ -21,7 +21,7 @@
     border: 1px solid red; /* Adds a red border around the header */
 }
 
-.header {
+.header .logo{
     font-size: 1.7em;
     color: #fff;
     text-decoration: none;
