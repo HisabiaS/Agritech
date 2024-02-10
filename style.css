@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Merriweather', sans-serif;
 }
 
 .header {
@@ -23,6 +23,6 @@
 
 .header .logo {
     font-size: 1.7em;
-    color: #fff;
+    color: whitesmoke;
     text-decoration: none;
 }
