@@ -72,7 +72,7 @@ def login():
             flash('Both username and password are required.', 'error')
             return redirect(url_for('login'))
         elif validate_user_login(username, password):
-            return render_template('welcome.html', username=username)
+            return render_template('News.html')
         else:
             flash('Login failed. Invalid username or password.', 'error')
             return redirect(url_for('login'))
