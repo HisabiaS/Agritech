@@ -41,10 +41,10 @@
 
 .home .content {
     max-width: 600px;
-    margin: 0 auto; 
+    margin: 0 auto 0 0; 
     padding: 40px; 
     background-color: rgba(255, 255, 255, 0.7); 
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
     border-radius: 10px;
     color: #000;
 }
