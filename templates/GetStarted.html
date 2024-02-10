@@ -1,5 +1,5 @@
 <html>
-    <head>
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AGROTECH</title>
@@ -11,12 +11,25 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url('TitlePage_BG.webp') no-repeat;
+    background: url('TitlePage_BG.webp') no-repeat center center fixed;
+    background-size: cover;
+  }
+  .background-blur-box {
+    position: absolute;
+    margin-top: -195px;
+    width: 60%; 
+    height: 20%; 
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+    border-radius: 15px;
+    z-index: 1; 
   }
   .agrotech-logo {
     font-size: 7em;
     font-weight: bold;
     color: #2e9f02;
+    position: relative;
+    z-index: 2; 
   }
   .get-started {
     margin-top: 150px;
@@ -26,18 +39,20 @@
     color: white;
     border: none;
     cursor: pointer;
-    width : 400px;
+    width: 400px;
     border-radius: 15px;
+    z-index: 2; 
   }
 </style>
 </head>
 <body>
 
+<div class="background-blur-box"></div> 
 <div class="agrotech-logo">AGROTECH</div>
-<button class="get-started"><p onclick="openOtherPage('News.html')">Get Started</p></button>
+<button class="get-started" onclick="openOtherPage('News.html')">Get Started</button>
         <script>
             function openOtherPage(filename) {
-              window.location.href = filename; // Use window.location.href for same tab
+              window.location.href = filename; 
             }
           </script>
     </body>
