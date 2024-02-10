@@ -37,6 +37,10 @@ def validate_user_login(username, password):
 def index():
     return render_template('index.html')
 
+@app.route('/indexmain')
+def indexmain():
+    return render_template('indexmain.html')
+
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
     if request.method == 'POST':
